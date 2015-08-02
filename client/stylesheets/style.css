@@ -1,7 +1,5 @@
 .grid-block, .main, .post, .comments li, .comment-form {
   background: #fff;
-  border-radius: 3px;
-  padding: 10px;
   margin-bottom: 10px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
@@ -15,7 +13,7 @@ body {
   position: relative;
 }
 .page {
-  position: absolute;
+  position: relative;
   top: 0px;
   width: 100%;
 }
@@ -26,6 +24,14 @@ body {
 
 .navbar .navbar-inner {
     border-radius: 0px 0px 3px 3px; }
+
+img {
+    display: block;
+    max-width:600px;
+    max-height:600px;
+    width: auto;
+    height: auto;
+}
 
 #spinner {
   height: 300px; }

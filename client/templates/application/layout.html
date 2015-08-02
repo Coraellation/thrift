@@ -1,10 +1,12 @@
 <template name="layout">
-  <div class="container">
-{{> header}}
-    <div id="main">
-      {{> yield}}
+    <div>
+        {{> header}}
     </div>
-  </div>
+    <div class="container">
+        <div id="main">
+            {{> yield}}
+        </div>
+    </div>
 </template>
 
 <!-- <template name="layout">

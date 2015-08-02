@@ -4,12 +4,14 @@
             <div class="post-content">
             <h3><a href="{{url}}">{{title}}</a><span>{{domain}}</span></h3>
             </div>
-            <a href="{{pathFor 'postPage'}}" class="discuss btn btn-default">Discuss</a>
+            <img src="{{url}}" class="img-responsive" alt="{{title}}">
             <!-- SO THAT WE DON'T HAVE TO USE  <a href="/posts/{{_id}}">  -->
 
             <!--<span>-->
                 <!--Posted at: {{postTime}}-->
             <!--</span>-->
+            <a href="{{pathFor 'postPage'}}" class="discuss btn btn-default">
+                <span class="glyphicon glyphicon-th"></span></a>
         </div>
     </div>
 </template>
